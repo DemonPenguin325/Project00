@@ -14,6 +14,9 @@
   (let ((a 1) (b 2) (c 3)) (+ a b c))
 #+END_SRC
 
+#+RESULTS:
+: 6
+
 #+BEGIN_SRC emacs-lisp
   (let ((a 1) (b 2) (c 3)) (+ a b c d))
 #+END_SRC
@@ -22,9 +25,15 @@
   (let ((a 1) (b 2) (c 3)) [+ a b c d])
 #+END_SRC
 
+#+RESULTS:
+: [+ a b c d]
+
 #+BEGIN_SRC emacs-lisp
   (let ((a 1) (b 2) (c 3) (+ 4)) (+ a b c +))
 #+END_SRC
+
+#+RESULTS:
+: 10
 
 #+BEGIN_SRC emacs-lisp
   (makunbound 'a)
@@ -35,7 +44,13 @@
   (let* ((a 1) (b 2) (c 3) (d (+ a 4))) (+ a b c d))
 #+END_SRC
 
-***  Your answer goes here.
+#+RESULTS:
+: 11
+
+***  When a variable is left undefined or it is marked as "unbounded", an expression trying 
+    to evaluate that undefined or unbound variable will simply fail and return a void error message. In terms of the difference
+    between let and let*, let* will bind the value to that variable immediately following the computing of its local value. This means
+    that if (a 1), its value cannot be changed later in the program.
 ** TODO TEJ
   A function-as-association between elements of a domain and elements of a
   codomain, for \ldquo{}small\rdquo domains and codomains, inspired so-called \ldquo{}association
