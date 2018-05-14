@@ -1,5 +1,18 @@
 1. Week02 teach.org puzzle of the hats.
 
+There are a couple of options:
+
+www - I can't figure out how any of them would prove it from this situation
+wwr - second would know that 2 and 3 can't both be wearing red
+wrw - same as rww
+wrr - first would know immediately
+rww - the first 2 didn't know, so 3 would know there can't be 2 reds
+rwr - second would know immediately
+rrw - third would know by looking
+
+In every case, if neither the first nor the second can prove it, the third has to be white.
+
+Option 3 is correct.
 
 2. You are on an Island where there are only two types of individuals besides yourself, Knaves and Knights.
 You have the following encounters with natives.
@@ -67,6 +80,7 @@ coin.”
 “Oh?”
 “Indeed. Can you tell me how?”
 Can YOU​ work it out?
+
 
 
 6. THE BEAST 2.0
