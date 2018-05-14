@@ -39,49 +39,49 @@ d. Why do I care about Superman again, he's in the D.C. universe ... so dark and
 
 ANSWER - c
 
-1. Contrapositive
+1. Contrapositive : The contrapositive is encountered when both the hypothesis and conclusion (in a logical statement) are switched, and then both statements are negated. For example, if my hair is wet, then I just showered. The contrapositive of that statement is: if I did not shower, then my hair is not wet. Both the conclusion and hypothesis are switched, and both statements are inverted (by not doing instead of doing).
 
 2. Converse
 
 3. inverse - negate antecedent and conclusion of a conditional. Example - s = p \rightarrow q, inverse of s = \not p \rightarrow \not q
 
-4. R: real numbers
+4. R: real numbers : Real numbers are generally numbers that fall within the set containing numbers that are countable. An example of a set of real numbers would be integers (1, 2, 3, 4, and so on). Also, real numbers can be both rational and irrational (a rational being 1.334 and an irrational being the pi).
 
 5. Z: integers
 
 6. Q: rational numbers - the set of all numbers that can be expressed as a fraction of two integers.
 
-7. predicate
+7. predicate : a statement that may either be true or false, depending on the values of the inputs. An example of this would be a function called isPrime(int num). It accepts an int and returns a value of true or false, depending on whether the input is a prime number or not.
 
 8. Domain
 
 9. CoDomain - For every x in the domain of f, the codomain contains all - and only - the numbers y = f(x)
 
-10. quantifier
+10. quantifier : The quantifier is denoted with the ∀ symbol and says that something is true for all members of a universal set, with no exceptions. In simple terms, it means, “for all”. For example, if we said x wears shoes, the universe would only be filled with people wearing shoes, according to the universal quantifier.
 
 11. antecedent
 
 12. consequent - second part of a conditional
 
-13. Set
+13. Set In logic and math, a set is a collection of unique or distinct objects. A set my include, for example, all even numbers (2, 4, 6, 8, 10, and so on). These are countable in terms of math and each number may be a set of its own. A visual way to represent sets is with a Venn Diagram, showing a distinct boundary between where a set begins and ends.
 
 14. Fallacy
 
 15. biconditional - p if and only if q
 
-16. sufficient condition
+16. sufficient condition : A sufficient condition is a condition or set of conditions that will produce a result, or event. The difference between a sufficient and necessary condition is that a sufficient condition does not necessarily require all conditions to be met, unlike a necessary condition. For example, Jim thinks eating healthy will produce a long lifetime. He was just diagnosed with terminal cancer and will die soon.
 
 17. necessary condition
 
 18. ~p - negation of p. ~0 = 1, ~1 = 0
 
-19. p ^ q
+19. p ^ q : This statement means that both conditions of p and q must be met in order for the proposition to be true. For example, if Joe is breathing normally, he must still be alive. Both conditions must be true in order for the proposition to be true. If Joe is not breathing, he is not alive. Also, if Joe is not alive, he must not be breathing normally. Both conditions must be met to be true. 
 
 20. p V q
 
 21. p XOR q - exclusive or. returns 1 iff p != q
 
-22. p == q
+22. p == q : This statement is the equivalent of saying: if p, then q. It would be the same as saying ‘p implies q’. An example of this would be stating “if I do my homework, I will learn more.”
 
 23. p -> q
 
