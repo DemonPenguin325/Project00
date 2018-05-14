@@ -88,12 +88,31 @@
 *** Your answer goes here.
 <<<<<<< HEAD
 #+BEGIN_SRC emacs-lisp
-   (setq values '((x . 100) (y . 200) (z . 50))) =>  ((X . 100) (Y . 200) (Z . 50))
- (assoc 'y values) =>  (Y . 200)
- (rplacd (assoc 'y values) 201) =>  (Y . 201)
- (assoc 'y values) =>  (Y . 201)
+   (setq values '((x . 100) (y . 200) (z . 50)))
+ (assoc 'y values)
+ (rplacd (assoc 'y values) 201)
+ (assoc 'y values)
  (setq alist '((1 . "one")(2 . "two")(3 . "three"))) 
+(setq alist '((1 . "one")(2 . "two")(3 . "three"))) 
+ (assoc 2 alist)
+ (assoc-if #'evenp alist)
+ (assoc-if-not #'(lambda(x) (< x 3)) alist)
+ (setq alist '(("one" . 1)("two" . 2)))
+ (assoc "one" alist)
+ ;(assoc "one" alist :test #'equalp)
+ ;(assoc "two" alist :key #'(lambda(x) (char x 2))) 
+ ;(assoc #\o alist :key #'(lambda(x) (char x 2)))
+ (assoc 'r '((a . b) (c . d) (r . x) (s . y) (r . z)))
+ (assoc 'goo '((foo . bar) (zoo . goo)))
+ (assoc '2 '((1 a b c) (2 b c d) (-7 x y z)))
+ (setq alist '(("one" . 1) ("2" . 2) ("three" . 3)))
+ ;(assoc-if-not #'alpha-char-p alist
+  ;             :key #'(lambda (x) (char x 0))) =>  ("2" . 2)
 #+END_SRC
+
+#+RESULTS:
+: ((one . 1) (2 . 2) (three . 3))
+
 ** DONE WFK
    CLOSED: [2018-05-14 Mon 09:31]
    :LOGBOOK:
