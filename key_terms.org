@@ -37,92 +37,101 @@ c. He levitates, he's an alien "HEELLLLLOOOO!"
 
 d. Why do I care about Superman again, he's in the D.C. universe ... so dark and terrible movies!
 
+ANSWER - c
+
 Contrapositive
 
 Converse
 
-inverse
+inverse - negate antecedent and conclusion of a conditional. Example - s = p \rightarrow q, inverse of s = \not p \rightarrow \not q
 
 R: real numbers
 
 Z: integers
 
-Q: rational numbers
+Q: rational numbers - the set of all numbers that can be expressed as a fraction of two integers.
 
 predicate
 
 Domain
 
-CoDomain
+CoDomain - For every x in the domain of f, the codomain contains all - and only - the numbers y = f(x)
 
 quantifier
 
 antecedent
 
-consequent
+consequent - second part of a conditional
 
 Set
 
 Fallacy
 
-biconditional
+biconditional - p if and only if q
 
 sufficient condition
 
 necessary condition
 
-~p
+~p - negation of p. ~0 = 1, ~1 = 0
 
 p ^ q
 
 p V q
 
-p XOR q
+p XOR q - exclusive or. returns 1 iff p != q
 
 p == q
 
 p -> q
 
-p <--> q
+p <--> q - biconditional. Returns 1 iff p == q
 
 Three dots in a triangle
 
 upside down A
 
-Backwards E
+Backwards E - existential quantifier. "There exists" or "there is at least one"
 
 union
 
 intersection
 
-Commutative laws
+Commutative laws - you can change the order of arguments for certain functions, and the output is the same. 
+Example: p \wedge q == q \wedge p
 
 associative laws
 
 distributive laws
 
-identity laws
+identity laws - states that x == x, a == a, etc.
 
 negation laws
 
 double negative law
 
-idempotent laws
+idempotent laws - a \wedge a == a; a \vee a == a
 
 universal bound laws
 
 De morgan's laws
 
-absorption laws
+absorption laws - a \wedge (a \vee b) == a; a \vee (a \wedge b) == a
 
 negations of t and c
 
 vacuously true
 
-Modus Ponens
+Modus Ponens - method of affirming. Allows you to construct arguments from statements.
 
 Modus Tollens
 
 Elimination: valid argument form
 
 Transitivity: Valid Argument form
+
+A \rightarrow B
+B \rightarrow C
+A == 1
+Therefore, 
+C == 1
