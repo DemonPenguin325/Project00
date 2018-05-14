@@ -34,6 +34,40 @@ with only 2 weights!
   Why is the sum of the reciprocals of the powers of two scaled by which power
   equal to two?
 *** Rephrase
+    The sum of the reciprocals of the powers of two, to the n, is 2. Why is n what it is?
 *** Approach
+#+BEGIN_SRC elisp
+  (defun sum-of-reciprocals-of-powers (ls)
+  (if (< (length ls) 1000)
+  (sum-of-reciprocals-of-powers (append ls (/ 1 (expt (car ls) (+ 1 (length ls))))))
+  (apply '+ ls)))
+#+END_SRC
+
+#+RESULTS:
+: sum-of-reciprocals-of-powers
+
+#+BEGIN_SRC elisp
+  (sum-of-reciprocals-of-powers '(2))
+#+END_SRC
+
+I have no idea why my elisp code isn't working, but the sum I got from a quick python script was 1
+
+1 ^ n = 2
+
 *** Solution
+
+    There is no solution
+
+Instead of explaining why there's no solution, I'll explain why the sum of reciprocals = 1
+
+1 / 2 = .5
+1 / 4 = .25, sum is .75
+1 / 8 = .125, sum is .875
+1 = 16 = .0625, sum is .9375
+etc.
+The sum converges on 1.
+
+
 *** Proof
+
+    I'm not sure what to put for the proof.
