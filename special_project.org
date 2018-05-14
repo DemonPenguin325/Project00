@@ -81,7 +81,9 @@ coin.”
 “Indeed. Can you tell me how?”
 Can YOU​ work it out?
 
-
+Spin the coin on its edge. Ignore which side it lands on. If it is clearly facing towards you (for example, the eagle on a
+quarter would be right side up), take it as heads. If it is clearly facing away from you, take it as tails. If it is
+not clearly facing one direction or the other, spin it again. 
 
 6. THE BEAST 2.0
 Back-Story
