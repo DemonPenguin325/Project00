@@ -71,6 +71,7 @@
   There are several variations of =assoc=. Find and give examples of using them.
 
 *** Your answer goes here.
+<<<<<<< HEAD
 #+BEGIN_SRC emacs-lisp
    (setq values '((x . 100) (y . 200) (z . 50))) =>  ((X . 100) (Y . 200) (Z . 50))
  (assoc 'y values) =>  (Y . 200)
@@ -79,6 +80,13 @@
  (setq alist '((1 . "one")(2 . "two")(3 . "three"))) 
 #+END_SRC
 ** TODO WFK
+=======
+** DONE WFK
+   CLOSED: [2018-05-14 Mon 09:31]
+   :LOGBOOK:
+   CLOCK: [2018-05-14 Mon 08:56]--[2018-05-14 Mon 09:31] =>  0:35
+   :END:
+>>>>>>> 267f03cc9d3272c245fc8d1dea349a3cde39c12a
   In the function-as-map context, here is another interpretation:
 
   A \ldquo{}map\rdquo type (AKA associative array, AKA hashtable) is found in many
@@ -124,25 +132,29 @@
 
   And of course elisp:
 #+BEGIN_SRC emacs-lisp :results output
-  (let* ((mymap (make-hash-table :test 'equal)))
+  (let* ((mymap (make-hash-table)))
     (puthash "one" "red" mymap)
     (puthash "two" "blue" mymap)
     (puthash "three" "green" mymap)
+    (puthash "four" "purple" mymap)
     (pp (list (gethash "one" mymap)
               (gethash "two" mymap)
               (gethash "three" mymap)))
     (maphash (lambda (key value) (princ (format "%s : %s\n" key value))) mymap))
 #+END_SRC
 
-: ("red" "blue" "green")
+#+RESULTS:
+: (nil nil nil)
 : one : red
 : two : blue
 : three : green
+: four : purple
 
   What happens if you omit the =:test 'equal= parameters to the
   =make-hash-table= call?
   
-*** Your answer goes here.
+  gethash always returns nil
+  
 ** TODO TER
   This exercise explores /looping/ versus /mapping/.
 
@@ -235,6 +247,7 @@ The hard way is correct!
   fractional part is less than one-half should be rounded down, otherwise up.)
 
 ***  Your answer goes here.
+<<<<<<< HEAD
 #+BEGIN_SRC elisp
  (defun round-to-nearest-integer (x)
 ;(setq v (- x (floor x)))
@@ -250,9 +263,29 @@ The hard way is correct!
 : 7
 
 ** TODO TKG
+=======
+** DONE TKG
+   CLOSED: [2018-05-14 Mon 13:28]
+   :LOGBOOK:
+   CLOCK: [2018-05-14 Mon 13:22]--[2018-05-14 Mon 13:28] =>  0:06
+   :END:
+>>>>>>> 267f03cc9d3272c245fc8d1dea349a3cde39c12a
   Explore the inverse of =assoc= via the functions =rassoc= and associates.
 
-***  Your answer goes here.
+#+BEGIN_SRC elisp
+  (assoc 'point_A '((point_A . (1 2)) (point_B . (3 4))))
+#+END_SRC
+
+#+RESULTS:
+| point_A | 1 | 2 |
+
+#+BEGIN_SRC elisp
+  (rassoc '(3 4) '((point_A . (1 2)) (point_B . (3 4))))
+#+END_SRC
+
+#+RESULTS:
+| point_B | 3 | 4 |
+
 ** TODO WOV
   Identify the formula or rule that generates the terms of each sequence:
   1. =[7 14 21 28 35 42 49 56 63 70 ...]=
