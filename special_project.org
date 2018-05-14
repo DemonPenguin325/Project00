@@ -1,11 +1,22 @@
 1. Week02 teach.org puzzle of the hats.
+
+
 2. You are on an Island where there are only two types of individuals besides yourself, Knaves and Knights.
 You have the following encounters with natives.
 a. Two natives A and B address you as follows: A says: Both of us are Knights. B says: A is a knave. What are A
 and B?
+
+== A is Knave, B is Knight
+
 b. Another two natives C and D approach you but only C speaks. C says: Both of us are knaves. What are C and
 D?
+
+== C is Knave, D is Knight
+
 c. You then encounter natives E and F. E says F is a knave. F says: E is a knave. How many knaves are there?
+
+== One of them is a Knave
+
 d. Finally you meet a group of six natives, U,V,W,X,Y,and Z, who speak to you as follows:
 U says: None of us is a knight.
 V says: at least three of us are knights.
@@ -14,11 +25,22 @@ X says: exactly five of us are knights.
 Y says: Exactly two of us are knights.
 Z says: Exactly one of us is a Knight.
 Which are Knights and which are knaves?
+
+== Answers below...
+U: Knave
+V: Knave
+W: Knight
+X: Knave
+Y: Knight
+Z: Knave
+
 3. Given the following information about a computer program, find the mistake in the program.
 a. There is an undeclared variable or there is a syntax error in the first five lines.
 b. If there is a syntax error in the first five lines, then there is a missing semicolon or a variable name is misspelled.
 c. There is not a missing semicolon.
 d. There is not a misspelled variable name.
+
+
 4. Sharky, a leader of the underworld, was killed by one of his own band of four henchmen. Detective Sharp interviewed
 the men and determined that all were lying except for one. He deduced who killed sharky on the basis of the following
 statements:
@@ -26,6 +48,8 @@ a. Socko: Lefty killed Sharky.
 b. Fats: Muscles didn’t kill Sharky.
 c. Lefty: Muscles was shooting craps with Socko when Sharky was knocked off.
 d. Muscles: Lefty didn’t kill Sharkky.
+
+
 Who killed Sharky?
 5. Balance
 One morning, I observed Holmes rolling a shilling back and forth over his knuckles, from one finger to the next, with
@@ -39,6 +63,8 @@ coin.”
 “Oh?”
 “Indeed. Can you tell me how?”
 Can YOU​ work it out?
+
+
 6. THE BEAST 2.0
 Back-Story
 Several anthropology PhD candidates will each publish a dissertation this year about a different aboriginal culture
