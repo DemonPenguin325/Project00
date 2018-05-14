@@ -39,94 +39,168 @@ d. Why do I care about Superman again, he's in the D.C. universe ... so dark and
 
 ANSWER - c
 
-1. Contrapositive
+1. Contrapositive : The contrapositive is encountered when both the hypothesis and conclusion (in a logical statement) are switched, and then both statements are negated. For example, if my hair is wet, then I just showered. The contrapositive of that statement is: if I did not shower, then my hair is not wet. Both the conclusion and hypothesis are switched, and both statements are inverted (by not doing instead of doing).
 
 2. Converse
+Flipping the hypothesis and the conclusion: 
+EX: If it's raining, the weather rock will be wet. VS If the weather rock is wet, then it must be raining.
+p -> q VS q -> p
+Create a logical statement, then give it's converse statement:
 
 3. inverse - negate antecedent and conclusion of a conditional. Example - s = p \rightarrow q, inverse of s = \not p \rightarrow \not q
 
-4. R: real numbers
+4. R: real numbers : Real numbers are generally numbers that fall within the set containing numbers that are countable. An example of a set of real numbers would be integers (1, 2, 3, 4, and so on). Also, real numbers can be both rational and irrational (a rational being 1.334 and an irrational being the pi).
 
 5. Z: integers
+Any whole number (no decimals) including negative numbers.
+EX: -2, -1, 0, 1, 2 etc.
+Which of the follwing is an integer
+a) 3i
+b) 3.14
+c) 7
+d) "x"
 
 6. Q: rational numbers - the set of all numbers that can be expressed as a fraction of two integers.
 
-7. predicate
+7. predicate : a statement that may either be true or false, depending on the values of the inputs. An example of this would be a function called isPrime(int num). It accepts an int and returns a value of true or false, depending on whether the input is a prime number or not.
 
 8. Domain
+The values that go into a function
+EX: 1, 2, 5, 7
+What is the domain of the Factorial function if given the values {3, 5, 9, 2}
+a) 0
+b) 4
+c) {3, 5, 9, 2}
+d) I don't know
 
 9. CoDomain - For every x in the domain of f, the codomain contains all - and only - the numbers y = f(x)
 
-10. quantifier
+10. quantifier : The quantifier is denoted with the ∀ symbol and says that something is true for all members of a universal set, with no exceptions. In simple terms, it means, “for all”. For example, if we said x wears shoes, the universe would only be filled with people wearing shoes, according to the universal quantifier.
 
 11. antecedent
+The first part of a logical statement.
+EX: *If the grass is green* then it is summer.
+Give the antecedent of the following statement:
+If X is a man, X is mortal
+A:
 
 12. consequent - second part of a conditional
 
-13. Set
+13. Set In logic and math, a set is a collection of unique or distinct objects. A set my include, for example, all even numbers (2, 4, 6, 8, 10, and so on). These are countable in terms of math and each number may be a set of its own. A visual way to represent sets is with a Venn Diagram, showing a distinct boundary between where a set begins and ends.
 
 14. Fallacy
+A flaw in reasoning.
+EX: There is a teapot orbiting the Earth at this very moment. You can't prove me wrong, so therefore my claim is valid.
+What is the fallacy in the following statement:
+Red had come up six times in a row on the roulette wheel, so Greg knew that it was close to certain that black would be next up.
+A:
 
 15. biconditional - p if and only if q
 
-16. sufficient condition
+16. sufficient condition : A sufficient condition is a condition or set of conditions that will produce a result, or event. The difference between a sufficient and necessary condition is that a sufficient condition does not necessarily require all conditions to be met, unlike a necessary condition. For example, Jim thinks eating healthy will produce a long lifetime. He was just diagnosed with terminal cancer and will die soon.
 
 17. necessary condition
+A nesessary condition is a condition that must be fulfilled for the outcome to be true or valid.
+EX: You must have keys to drive a car.
+What would be a necessary condition to fly a plane?
+a) You must have own a plane.
+b) You must join the airforce.
+c) You must have a pilot's licence.
+d) You must be able to fly a kite.
 
 18. ~p - negation of p. ~0 = 1, ~1 = 0
 
-19. p ^ q
+19. p ^ q : This statement means that both conditions of p and q must be met in order for the proposition to be true. For example, if Joe is breathing normally, he must still be alive. Both conditions must be true in order for the proposition to be true. If Joe is not breathing, he is not alive. Also, if Joe is not alive, he must not be breathing normally. Both conditions must be met to be true. 
 
 20. p V q
+The result is true if either P is true OR Q is true, or they are both true.
+EX: In order to get an icecream cone, you must have at least $1.00 or have a free coupon.
+Which of these statements is false?
 
 21. p XOR q - exclusive or. returns 1 iff p != q
 
-22. p == q
+22. p == q : This statement is the equivalent of saying: if p, then q. It would be the same as saying ‘p implies q’. An example of this would be stating “if I do my homework, I will learn more.”
 
 23. p -> q
+Statemet P implies statement Q
+EX: 
 
 24. p <--> q - biconditional. Returns 1 iff p == q
 
-25. Three dots in a triangle
+25. Three dots in a triangle : This sign refers to the “therefore” or “conclusion” sign. An example of this would be the statement: x + 3 = 10. *Three dots in a triangle* x= 7. This symbol is saying, x + 3 = 10, THEREFORE x = 7.
 
 26. upside down A
+∀ For all items in a set.
+
 
 27. Backwards E - existential quantifier. "There exists" or "there is at least one"
 
-28. union
+28. union : The union of a few (collection of) sets is the set of all elements in a collection. For example, if set A has [ 3 ] and set B has [ 2 ]. The union of both sets would be set with elements [ 3 2] in it.
 
 29. intersection
+The set of values that two sets have in common.
+EX: The middle part of a Venn Diagram.
+Q:
+
 
 30. Commutative laws - you can change the order of arguments for certain functions, and the output is the same. 
 Example: p \wedge q == q \wedge p
 
-31. associative laws
+31. associative laws : These laws essentially mean that the order in which a statement is evaluated does not matter. For example, p ^ r ^ w is logically equivilant to (p ^ r) ^ w. 
 
 32. distributive laws
+Similar to the distributive laws in algebra. A variable outside of parenthesis can be distributed to each
+term inside the parenthesis to get a correct result.
+EX: p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)
+
 
 33. identity laws - states that x == x, a == a, etc.
 
-34. negation laws
+34. negation laws : Can be defined as the negation of a disjunction being the conjunction of the negations. Negation laws are also referred to as the logical complement. An example would be: I am wearing shoes. The logical complement of that statement would be: I am not wearing shoes.
 
 35. double negative law
+A law that states that if a statement is negated twice, it is equivilant to it's original state.
+EX:If a statement is true, then it is not the case that the statement is not true
+Q: Which of the following is true:
+a) This statement is false.
+b) This is not the answer.
+c) This statement is not the incorrect answer. 
+
 
 36. idempotent laws - a \wedge a == a; a \vee a == a
 
-37. universal bound laws
+37. universal bound laws : A set of laws and rules that have been found to be true universally. An example of this would be De Morgan’s law.
 
 38. De morgan's laws
+A set of rules that define how logical statements can be manipulated.
+EX: ~(P ^ Q) -> (~P v ~Q)
+Q:
+
 
 39. absorption laws - a \wedge (a \vee b) == a; a \vee (a \wedge b) == a
 
-40. negations of t and c
+40. negations of t and c : The negations of (t and c) would be (not t or not c).
 
 41. vacuously true
+A truth about an empty set.
+EX: All the chairs in the room are orange. (When there are no chairs in the room)
+Which of the following is a vacuous truth?
+a) This text is black
+b) Blueberries are blue.
+c) I've never lost a fair game. Never played one.
+
 
 42. Modus Ponens - method of affirming. Allows you to construct arguments from statements.
 
-43. Modus Tollens
+43. Modus Tollens : This rule states that if a conditional statement (e.i. if p then q) is true, and the consequent does not hold (not q), then the negation of the antecedent (which is not-p ) can be inferred. For example, if I have cut chicken, I can use a knife. According to Modus Tollens, if I have not used a knife, i have not cut chicken.
 
 44. Elimination: valid argument form
+A rule of inferance that allows us to remove a redundant statement from a logical proof.
+EX: If I'm inside, then I have my wallet.
+    If I'm outside, then I have my wallet.
+    I am either inside or outside, so therefore, I have my wallet on me.
+Q: 
+
 
 45. Transitivity: Valid Argument form
 
