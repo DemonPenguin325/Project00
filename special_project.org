@@ -40,6 +40,7 @@ b. If there is a syntax error in the first five lines, then there is a missing s
 c. There is not a missing semicolon.
 d. There is not a misspelled variable name.
 
+ANSWER: Undeclared variable
 
 4. Sharky, a leader of the underworld, was killed by one of his own band of four henchmen. Detective Sharp interviewed
 the men and determined that all were lying except for one. He deduced who killed sharky on the basis of the following
@@ -51,6 +52,9 @@ d. Muscles: Lefty didn’t kill Sharkky.
 
 
 Who killed Sharky?
+
+ANSWER: Muscles killed Sharky.
+
 5. Balance
 One morning, I observed Holmes rolling a shilling back and forth over his knuckles, from one finger to the next, with
 his other hand held behind his back. “YOu can do a lot of mischief with a tricked coin, old friend,” he said.
