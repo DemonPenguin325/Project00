@@ -315,4 +315,14 @@ The hard way is correct!
   | =oddp=     |            |
 
 ***  Your answer goes here. (Replicate the above table.)
-    
+  | Predicate? | Yes or No? |
+  |------------+------------|
+  | =list=     |     No     |
+  | =listp=    |     Yes    |
+  | =integerp= |     Yes    |
+  | =vector=   |     No     |
+  | =vectorp=  |     No     |
+  | =symbolp=  |     Yes    |
+  | =zerop=    |     Yes    |
+  | =evenp=    |     Yes    |
+  | =oddp=     |     Yes    |
