@@ -37,7 +37,6 @@ c. He levitates, he's an alien "HEELLLLLOOOO!"
 
 d. Why do I care about Superman again, he's in the D.C. universe ... so dark and terrible movies!
 
-<<<<<<< HEAD
 ANSWER - c
 
 1. Contrapositive
@@ -74,7 +73,6 @@ ANSWER - c
 
 17. necessary condition
 
-<<<<<<< HEAD
 18. ~p - negation of p. ~0 = 1, ~1 = 0
 
 19. p ^ q
