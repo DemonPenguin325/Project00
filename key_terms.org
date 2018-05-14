@@ -87,44 +87,44 @@ ANSWER - c
 
 24. p <--> q - biconditional. Returns 1 iff p == q
 
-25. Three dots in a triangle
+25. Three dots in a triangle : This sign refers to the “therefore” or “conclusion” sign. An example of this would be the statement: x + 3 = 10. *Three dots in a triangle* x= 7. This symbol is saying, x + 3 = 10, THEREFORE x = 7.
 
 26. upside down A
 
 27. Backwards E - existential quantifier. "There exists" or "there is at least one"
 
-28. union
+28. union : The union of a few (collection of) sets is the set of all elements in a collection. For example, if set A has [ 3 ] and set B has [ 2 ]. The union of both sets would be set with elements [ 3 2] in it.
 
 29. intersection
 
 30. Commutative laws - you can change the order of arguments for certain functions, and the output is the same. 
 Example: p \wedge q == q \wedge p
 
-31. associative laws
+31. associative laws : These laws essentially mean that the order in which a statement is evaluated does not matter. For example, p ^ r ^ w is logically equivilant to (p ^ r) ^ w. 
 
 32. distributive laws
 
 33. identity laws - states that x == x, a == a, etc.
 
-34. negation laws
+34. negation laws : Can be defined as the negation of a disjunction being the conjunction of the negations. Negation laws are also referred to as the logical complement. An example would be: I am wearing shoes. The logical complement of that statement would be: I am not wearing shoes.
 
 35. double negative law
 
 36. idempotent laws - a \wedge a == a; a \vee a == a
 
-37. universal bound laws
+37. universal bound laws : A set of laws and rules that have been found to be true universally. An example of this would be De Morgan’s law.
 
 38. De morgan's laws
 
 39. absorption laws - a \wedge (a \vee b) == a; a \vee (a \wedge b) == a
 
-40. negations of t and c
+40. negations of t and c : The negations of (t and c) would be (not t or not c).
 
 41. vacuously true
 
 42. Modus Ponens - method of affirming. Allows you to construct arguments from statements.
 
-43. Modus Tollens
+43. Modus Tollens : This rule states that if a conditional statement (e.i. if p then q) is true, and the consequent does not hold (not q), then the negation of the antecedent (which is not-p ) can be inferred. For example, if I have cut chicken, I can use a knife. According to Modus Tollens, if I have not used a knife, i have not cut chicken.
 
 44. Elimination: valid argument form
 
