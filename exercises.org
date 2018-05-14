@@ -86,7 +86,19 @@
   There are several variations of =assoc=. Find and give examples of using them.
 
 *** Your answer goes here.
-** TODO WFK
+<<<<<<< HEAD
+#+BEGIN_SRC emacs-lisp
+   (setq values '((x . 100) (y . 200) (z . 50))) =>  ((X . 100) (Y . 200) (Z . 50))
+ (assoc 'y values) =>  (Y . 200)
+ (rplacd (assoc 'y values) 201) =>  (Y . 201)
+ (assoc 'y values) =>  (Y . 201)
+ (setq alist '((1 . "one")(2 . "two")(3 . "three"))) 
+#+END_SRC
+** DONE WFK
+   CLOSED: [2018-05-14 Mon 09:31]
+   :LOGBOOK:
+   CLOCK: [2018-05-14 Mon 08:56]--[2018-05-14 Mon 09:31] =>  0:35
+   :END:
   In the function-as-map context, here is another interpretation:
 
   A \ldquo{}map\rdquo type (AKA associative array, AKA hashtable) is found in many
@@ -132,25 +144,29 @@
 
   And of course elisp:
 #+BEGIN_SRC emacs-lisp :results output
-  (let* ((mymap (make-hash-table :test 'equal)))
+  (let* ((mymap (make-hash-table)))
     (puthash "one" "red" mymap)
     (puthash "two" "blue" mymap)
     (puthash "three" "green" mymap)
+    (puthash "four" "purple" mymap)
     (pp (list (gethash "one" mymap)
               (gethash "two" mymap)
               (gethash "three" mymap)))
     (maphash (lambda (key value) (princ (format "%s : %s\n" key value))) mymap))
 #+END_SRC
 
-: ("red" "blue" "green")
+#+RESULTS:
+: (nil nil nil)
 : one : red
 : two : blue
 : three : green
+: four : purple
 
   What happens if you omit the =:test 'equal= parameters to the
   =make-hash-table= call?
   
-*** Your answer goes here.
+  gethash always returns nil
+  
 ** TODO TER
   This exercise explores /looping/ versus /mapping/.
 
@@ -209,17 +225,25 @@
 #+END_SRC
 
 #+BEGIN_SRC emacs-lisp :results raw
-  (let* ((number (/ 13 4.0))
+  (let* ((number (/ -13 4.0))
          (floor1 (floor number))
-         (floor2 (compute-floor-the-hard-way 13 4.0)))
+         (floor2 (compute-floor-the-hard-way -13 4.0)))
     (list number floor1 floor2))
 #+END_SRC
+
+#+RESULTS:
+(-3.25 -4 -4.0)
+(3.25 3 3.0)
 
 : (3.25 3 3.0)
 
   Is the hard way correct?
   
 *** Your answer goes here.
+(13 / 4.0) - ((13 % 4) / 4.0)
+3.25 - 1 / 4
+3.25 - .25
+The hard way is correct!
 ** TODO THP
   Graph the floor and ceiling functions f(x) = \lfloor{}x\rfloor and f(x) = \lceil{}x\rceil for real
   number values of x in the interval [-5.0 .. 5.0].
@@ -258,10 +282,42 @@
   fractional part is less than one-half should be rounded down, otherwise up.)
 
 ***  Your answer goes here.
-** TODO TKG
+<<<<<<< HEAD
+#+BEGIN_SRC elisp
+ (defun round-to-nearest-integer (x)
+;(setq v (- x (floor x)))
+(if (>= (- x (floor x)) 0.5)
+   (ceiling x) 
+   (floor x))
+)
+
+(round-to-nearest-integer 7.49)
+#+END_SRC
+
+#+RESULTS:
+: 7
+
+** DONE TKG
+   CLOSED: [2018-05-14 Mon 13:28]
+   :LOGBOOK:
+   CLOCK: [2018-05-14 Mon 13:22]--[2018-05-14 Mon 13:28] =>  0:06
+   :END:
   Explore the inverse of =assoc= via the functions =rassoc= and associates.
 
-***  Your answer goes here.
+#+BEGIN_SRC elisp
+  (assoc 'point_A '((point_A . (1 2)) (point_B . (3 4))))
+#+END_SRC
+
+#+RESULTS:
+| point_A | 1 | 2 |
+
+#+BEGIN_SRC elisp
+  (rassoc '(3 4) '((point_A . (1 2)) (point_B . (3 4))))
+#+END_SRC
+
+#+RESULTS:
+| point_B | 3 | 4 |
+
 ** TODO WOV
   Identify the formula or rule that generates the terms of each sequence:
   1. =[7 14 21 28 35 42 49 56 63 70 ...]= 7 * n
@@ -306,3 +362,15 @@
   | =oddp=     |            |
 
 ***  Your answer goes here. (Replicate the above table.)
+  | Predicate? | Yes or No? |
+  |------------+------------|
+  | =list=     |     No     |
+  | =listp=    |     Yes    |
+  | =integerp= |     Yes    |
+  | =vector=   |     No     |
+  | =vectorp=  |     No     |
+  | =symbolp=  |     Yes    |
+  | =zerop=    |     Yes    |
+  | =evenp=    |     Yes    |
+  | =oddp=     |     Yes    |
+  

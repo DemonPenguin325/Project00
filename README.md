@@ -8,6 +8,10 @@ I will be extremely meticulous in my grading. And there will be no curve. AND NO
 
 INCLUDE A README FILE WITH ALL TEAM MEMBER NAMES and summaries and opinnions on the project!
 
+Tristan Fullmer
+Eli Andrew
+Alex Bentley
+
 25%
 KEY TERMS
 Identify Key terms
