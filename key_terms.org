@@ -37,98 +37,100 @@ c. He levitates, he's an alien "HEELLLLLOOOO!"
 
 d. Why do I care about Superman again, he's in the D.C. universe ... so dark and terrible movies!
 
+<<<<<<< HEAD
 ANSWER - c
 
-Contrapositive
+1. Contrapositive
 
-Converse
+2. Converse
 
-inverse - negate antecedent and conclusion of a conditional. Example - s = p \rightarrow q, inverse of s = \not p \rightarrow \not q
+3. inverse - negate antecedent and conclusion of a conditional. Example - s = p \rightarrow q, inverse of s = \not p \rightarrow \not q
 
-R: real numbers
+4. R: real numbers
 
-Z: integers
+5. Z: integers
 
-Q: rational numbers - the set of all numbers that can be expressed as a fraction of two integers.
+6. Q: rational numbers - the set of all numbers that can be expressed as a fraction of two integers.
 
-predicate
+7. predicate
 
-Domain
+8. Domain
 
-CoDomain - For every x in the domain of f, the codomain contains all - and only - the numbers y = f(x)
+9. CoDomain - For every x in the domain of f, the codomain contains all - and only - the numbers y = f(x)
 
-quantifier
+10. quantifier
 
-antecedent
+11. antecedent
 
-consequent - second part of a conditional
+12. consequent - second part of a conditional
 
-Set
+13. Set
 
-Fallacy
+14. Fallacy
 
-biconditional - p if and only if q
+15. biconditional - p if and only if q
 
-sufficient condition
+16. sufficient condition
 
-necessary condition
+17. necessary condition
 
-~p - negation of p. ~0 = 1, ~1 = 0
+<<<<<<< HEAD
+18. ~p - negation of p. ~0 = 1, ~1 = 0
 
-p ^ q
+19. p ^ q
 
-p V q
+20. p V q
 
-p XOR q - exclusive or. returns 1 iff p != q
+21. p XOR q - exclusive or. returns 1 iff p != q
 
-p == q
+22. p == q
 
-p -> q
+23. p -> q
 
-p <--> q - biconditional. Returns 1 iff p == q
+24. p <--> q - biconditional. Returns 1 iff p == q
 
-Three dots in a triangle
+25. Three dots in a triangle
 
-upside down A
+26. upside down A
 
-Backwards E - existential quantifier. "There exists" or "there is at least one"
+27. Backwards E - existential quantifier. "There exists" or "there is at least one"
 
-union
+28. union
 
-intersection
+29. intersection
 
-Commutative laws - you can change the order of arguments for certain functions, and the output is the same. 
+30. Commutative laws - you can change the order of arguments for certain functions, and the output is the same. 
 Example: p \wedge q == q \wedge p
 
-associative laws
+31. associative laws
 
-distributive laws
+32. distributive laws
 
-identity laws - states that x == x, a == a, etc.
+33. identity laws - states that x == x, a == a, etc.
 
-negation laws
+34. negation laws
 
-double negative law
+35. double negative law
 
-idempotent laws - a \wedge a == a; a \vee a == a
+36. idempotent laws - a \wedge a == a; a \vee a == a
 
-universal bound laws
+37. universal bound laws
 
-De morgan's laws
+38. De morgan's laws
 
-absorption laws - a \wedge (a \vee b) == a; a \vee (a \wedge b) == a
+39. absorption laws - a \wedge (a \vee b) == a; a \vee (a \wedge b) == a
 
-negations of t and c
+40. negations of t and c
 
-vacuously true
+41. vacuously true
 
-Modus Ponens - method of affirming. Allows you to construct arguments from statements.
+42. Modus Ponens - method of affirming. Allows you to construct arguments from statements.
 
-Modus Tollens
+43. Modus Tollens
 
-Elimination: valid argument form
+44. Elimination: valid argument form
 
-Transitivity: Valid Argument form
+45. Transitivity: Valid Argument form
 
 A \rightarrow B
 B \rightarrow C
