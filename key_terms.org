@@ -37,92 +37,92 @@ c. He levitates, he's an alien "HEELLLLLOOOO!"
 
 d. Why do I care about Superman again, he's in the D.C. universe ... so dark and terrible movies!
 
-Contrapositive
+1. Contrapositive
 
-Converse
+2. Converse
 
-inverse
+3. inverse
 
-R: real numbers
+4. R: real numbers
 
-Z: integers
+5. Z: integers
 
-Q: rational numbers
+6. Q: rational numbers
 
-predicate
+7. predicate
 
-Domain
+8. Domain
 
-CoDomain
+9. CoDomain
 
-quantifier
+10. quantifier
 
-antecedent
+11. antecedent
 
-consequent
+12. consequent
 
-Set
+13. Set
 
-Fallacy
+14. Fallacy
 
-biconditional
+15. biconditional
 
-sufficient condition
+16. sufficient condition
 
-necessary condition
+17. necessary condition
 
-~p
+18. ~p
 
-p ^ q
+19. p ^ q
 
-p V q
+20. p V q
 
-p XOR q
+21. p XOR q
 
-p == q
+22. p == q
 
-p -> q
+23. p -> q
 
-p <--> q
+24. p <--> q
 
-Three dots in a triangle
+25. Three dots in a triangle
 
-upside down A
+26. upside down A
 
-Backwards E
+27. Backwards E
 
-union
+28. union
 
-intersection
+29. intersection
 
-Commutative laws
+30. Commutative laws
 
-associative laws
+31. associative laws
 
-distributive laws
+32. distributive laws
 
-identity laws
+33. identity laws
 
-negation laws
+34. negation laws
 
-double negative law
+35. double negative law
 
-idempotent laws
+36. idempotent laws
 
-universal bound laws
+37. universal bound laws
 
-De morgan's laws
+38. De morgan's laws
 
-absorption laws
+39. absorption laws
 
-negations of t and c
+40. negations of t and c
 
-vacuously true
+41. vacuously true
 
-Modus Ponens
+42. Modus Ponens
 
-Modus Tollens
+43. Modus Tollens
 
-Elimination: valid argument form
+44. Elimination: valid argument form
 
-Transitivity: Valid Argument form
+45. Transitivity: Valid Argument form
