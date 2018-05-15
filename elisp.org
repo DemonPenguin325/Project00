@@ -41,11 +41,11 @@ I'm not sure. I get an overflow error after around factorial 20 and it wraps aro
 ** Code
 #+BEGIN_SRC emacs-lisp
 
-(let (x 0))
-(while ( < x 5)
-(setq x (+ 1 x)))
- 
+(setq a 0)
+(loop
+(setq a (+ a 1))
+(when (>= a 20) (return a))) 
 #+END_SRC
 
 #+RESULTS:
-: loopFunction
+: 20
