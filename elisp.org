@@ -27,4 +27,11 @@ NOTE: Comment your code, and verify it works for "breaking cases" i.e. 0! = 1.
 ** Code
 #+BEGIN_SRC emacs-lisp
 
+(let (x 0))
+(while ( < x 5)
+(setq x (+ 1 x)))
+ 
 #+END_SRC
+
+#+RESULTS:
+: loopFunction
