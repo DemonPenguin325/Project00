@@ -10,13 +10,27 @@ NOTE: Comment your code, and verify it works for "breaking cases" i.e. 0! = 1.
 ** Code
 #+BEGIN_SRC emacs-lisp
 (defun factorial(x)
-   (if (= x 1) 1 
-      (* x (factorial(- x 1)))))
+   (if (<= x 1) 1     ; Returns a 1 if done calculating the factorial
+      (* x (factorial(- x 1))))) ; Returns x times the factorial of the previous number
 
-(factorial 5)
+(factorial 0)
+;(factorial 7)
 #+END_SRC
+
+#+RESULTS:
+: 1
+
 ** Test cases
+#+BEGIN_SRC elisp
+ (factorial 0)
+ (factorial 20) 
+#+END_SRC
+
+#+RESULTS:
+: -2178784010250747904
+
 ** How big a number will make your computer freeze?
+I'm not sure. I get an overflow error after around factorial 20 and it wraps around to the negitive side.
 * "Real-World" function with mapcar
 ** What is mapcar
 ** Code
